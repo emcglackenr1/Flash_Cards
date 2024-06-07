@@ -14,19 +14,15 @@ let currentActiveCard = 0;
 const cardsElement = [];
 
 const cardsData = [
-  {
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheets",
-  },
-  {
-    question: "What year was JavaScript launched?",
-    answer: "1995",
-  },
-  {
-    question: "What does HTML stand for?",
-    answer: "Hypertext Markup Language",
-  },
-];
+    {
+      question: "Example Question?",
+      answer: "Example Answer",
+    },
+    {
+      question: "Example Question 2?",
+      answer: "Example Answer 2",
+    },
+  ];
 // const cardsData = getCardsData();
 
 function createCards() {
